@@ -1,0 +1,23 @@
+{
+  "name": "catgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennifer-ruan/catgame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennifer-ruan/catgame/issues"
+  },
+  "homepage": "https://github.com/jennifer-ruan/catgame#readme",
+  "dependencies": {
+    "phaser": "^3.60.0"
+  }
+}
