@@ -2,8 +2,10 @@
   "name": "catgame",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "parcel index.html -p 8000",
+    "build": "parcel build index.html --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +19,14 @@
     "url": "https://github.com/jennifer-ruan/catgame/issues"
   },
   "homepage": "https://github.com/jennifer-ruan/catgame#readme",
+  "parcelCleanPaths": [
+    "dist"
+  ],
   "dependencies": {
     "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
   }
 }
